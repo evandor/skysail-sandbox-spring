@@ -13,12 +13,17 @@
     ${felix},\
     ${commons},\
     ${logging},\
+	org.apache.servicemix.bundles.spring-aop;version='[4.2.4,4.2.5)',\
 	org.apache.servicemix.bundles.spring-beans;version='[4.2.4,4.2.5)',\
 	org.apache.servicemix.bundles.spring-context;version='[4.2.4,4.2.5)',\
-	org.apache.servicemix.bundles.spring-core;version='[4.2.4,4.2.5)'
+	org.apache.servicemix.bundles.spring-core;version='[4.2.4,4.2.5)',\
+	org.apache.servicemix.bundles.spring-expression;version='[4.2.4,4.2.5)'	
 	
 -buildpath: \
     ${osgi},\
+    ${felix},\
+    ${commons},\
+    ${logging},\
     osgi.cmpn;version=${osgi.version},\
     org.apache.servicemix.bundles.spring-core;version=4.2,\
     org.apache.servicemix.bundles.spring-beans;version=4.2,\
